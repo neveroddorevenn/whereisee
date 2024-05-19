@@ -1,0 +1,70 @@
+header,
+h2,
+ul> li> section {
+	border-radius: 30px;
+	padding: 2px;
+}
+
+* {
+	padding: 0;
+}
+
+header {
+	background-color: lightblue;
+	text-align: center;
+}
+
+h2 {
+	background-color: gainsboro;
+	text-align: center;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+ul > li > section {
+	border: 2px dotted powderblue;
+	width: 380px;
+
+}
+
+p {
+	line-height: 1.7;
+	word-break: keep-all;
+}
+
+li {
+	list-style: none;
+	align-items: center;
+}
+
+div {
+	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 0px;
+    }
+
+    ul > li > section {
+		border: 2px dotted powderblue;
+		width: 300px;
+		margin-left: 0px;
+    }
+
+    p {
+		font-size: 18x;
+	}
+
+	header {
+		text-align: center;
+	}
+
+}
